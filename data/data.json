@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Air Max 1",
+    "brand": "Nike",
+    "price": 129.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMLNIJWbwoR2wpFFIIxqwJvz58HzurUe2szNok5aAFnyThYK8n0thQUv9rJ3C1rHGjQiE&usqp=CAU",
+    "description": "Classic Nike sneakers with Air Max technology.",
+    "category": "Running",
+    "color": "White/Red",
+    "collectionType": "Spring"
+  },
+  {
+    "id": 2,
+    "name": "Adidas Ultraboost 20",
+    "brand": "Adidas",
+    "price": 149.95,
+    "image": "https://images.stockx.com/images/adidas-Ultraboost-20-Collegiate-Navy.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1611591736",
+    "description": "High-performance running shoes with Boost technology.",
+    "category": "Running",
+    "color": "Black/Blue",
+    "collectionType": "Fall"
+  },
+  {
+    "id": 3,
+    "name": "Puma RS-X Tech",
+    "brand": "Puma",
+    "price": 109.99,
+    "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/369329/01/fnd/PNA/fmt/png/RS-X-Tech-Sneakers",
+    "description": "Futuristic sneakers with advanced cushioning.",
+    "category": "Casual",
+    "color": "Grey/Yellow",
+    "collectionType": "Summer"
+  },
+  {
+    "id": 4,
+    "name": "Reebok Classic Leather",
+    "brand": "Reebok",
+    "price": 79.95,
+    "image": "https://reebok.com.au/cdn/shop/products/14-392040.jpg?v=1666484219&width=1946",
+    "description": "Timeless leather sneakers for everyday wear.",
+    "category": "Casual",
+    "color": "White/Gum",
+    "collectionType": "Winter"
+  },
+  {
+    "id": 5,
+    "name": "Under Armour HOVR Phantom SE",
+    "brand": "Under Armour",
+    "price": 159.99,
+    "image": "https://i.sportisimo.com/products/images/963/963507/700x700/under-armour-3023295-602-ua-w-hovr-phantom-se-trek-pnk_3.jpg",
+    "description": "Smart running shoes with UA HOVR technology.",
+    "category": "Running",
+    "color": "Black/Gold",
+    "collectionType": "Spring"
+  },
+  {
+    "id": 6,
+    "name": "Nike React Element 87",
+    "brand": "Nike",
+    "price": 179.99,
+    "image": "https://cdn-images.farfetch-contents.com/13/06/03/02/13060302_13889398_600.jpg",
+    "description": "Fashionable sneakers with React technology.",
+    "category": "Fashion",
+    "color": "Sail/Light Bone",
+    "collectionType": "Fall"
+  },
+  {
+    "id": 7,
+    "name": "Adidas Yeezy Boost 350 V2",
+    "brand": "Adidas",
+    "price": 249.99,
+    "image": "https://sneakerpimpbd.co/content/images/thumbs/0001582_yeezy-boost-350-v2_600.jpeg",
+    "description": "Hyped sneakers designed by Kanye West.",
+    "category": "Fashion",
+    "color": "Cream/Tan",
+    "collectionType": "Winter"
+  },
+  {
+    "id": 8,
+    "name": "New Balance 990v5",
+    "brand": "New Balance",
+    "price": 174.95,
+    "image": "https://nb.scene7.com/is/image/NB/m990bb5_nb_02_i?$dw_detail_main_lg$&bgc=f1f1f1&layer=1&bgcolor=f1f1f1&blendMode=mult&scale=10&wid=1600&hei=1600",
+    "description": "Premium quality running shoes with classic style.",
+    "category": "Running",
+    "color": "Navy/Silver",
+    "collectionType": "Summer"
+  },
+  {
+    "id": 9,
+    "name": "Puma Cali",
+    "brand": "Puma",
+    "price": 89.99,
+    "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/394384/01/sv01/fnd/EEA/fmt/png/PUMA-Cali-Court-Youth-Leather-Sneakers",
+    "description": "Classic tennis-inspired sneakers with a modern twist.",
+    "category": "Casual",
+    "color": "White/Black",
+    "collectionType": "Spring"
+  },
+  {
+    "id": 10,
+    "name": "Vans Old Skool",
+    "brand": "Vans Old Skool",
+    "price": 59.99,
+    "image": "https://images.vans.com/is/image/VansEU/VN0A5FCBY28-HERO?$PDP-FULL-IMAGE$",
+    "description": "Iconic skate shoes for street style.",
+    "category": "Casual",
+    "color": "Black/White",
+    "collectionType": "Fall"
+  },
+  {
+    "id": 11,
+    "name": "Converse Chuck Taylor All Star",
+    "brand": "Converse",
+    "price": 49.95,
+    "image": "https://www.converse.in/media/catalog/product/5/6/560845c_01.jpg?auto=webp&format=pjpg&width=640&height=800&fit=cover",
+    "description": "Timeless canvas sneakers for everyday wear.",
+    "category": "Casual",
+    "color": "Red",
+    "collectionType": "Winter"
+  },
+  {
+    "id": 12,
+    "name": "Asics Gel-Kayano 27",
+    "brand": "Asics",
+    "price": 159.95,
+    "image": "https://www.theathletesfoot.co.nz/media/catalog/product/cache/1d9bed4adb161c46da1721fdfc39729c/1/0/1011a767_021_sr_rt_glb.jpg",
+    "description": "Stability running shoes with advanced cushioning.",
+    "category": "Running",
+    "color": "Blue/White",
+    "collectionType": "Spring"
+  },
+  {
+    "id": 13,
+    "name": "Fila Disruptor II",
+    "brand": "Fila",
+    "price": 79.99,
+    "image": "https://www.tower-london.com/cdn/shop/products/fila_27341.jpg?v=1682331718&width=800",
+    "description": "Chunky sneakers for a bold statement.",
+    "category": "Fashion",
+    "color": "Pink/White",
+    "collectionType": "Summer"
+  },
+  {
+    "id": 14,
+    "name": "Skechers D'Lites",
+    "brand": "Skechers",
+    "price": 69.99,
+    "image": "https://www.skechers.com/dw/image/v2/BDCN_PRD/on/demandware.static/-/Sites-skechers-master/default/dw3acaff72/images/large/11930_BKW.jpg?sw=1200",
+    "description": "Comfortable sneakers with memory foam insole.",
+    "category": "Casual",
+    "color": "Black/Pink",
+    "collectionType": "Fall"
+  },
+  {
+    "id": 15,
+    "name": "Brooks Adrenaline GTS 21",
+    "brand": "Brooks",
+    "price": 129.99,
+    "image": "https://www.theathletesfoot.com.au/media/catalog/product/cache/30cc80f98b098b07373440d682818030/1/2/1203291b020_1.jpg",
+    "description": "Supportive running shoes for overpronation.",
+    "category": "Running",
+    "color": "Grey/Blue",
+    "collectionType": "Winter"
+  },
+  {
+    "id": 16,
+    "name": "Merrell Moab 2 Vent",
+    "brand": "Merrell",
+    "price": 99.95,
+    "image": "https://s7d4.scene7.com/is/image/WolverineWorldWide/MRLM-J06011-021621-S21-001?$dw-pdp-mobile$",
+    "description": "Breathable hiking shoes for outdoor adventures.",
+    "category": "Hiking",
+    "color": "Brown",
+    "collectionType": "Spring"
+  },
+  {
+    "id": 17,
+    "name": "Timberland Earthkeepers",
+    "brand": "Timberland",
+    "price": 129.99,
+    "image": "https://images.uttings.co.uk/images/products/timberland/earthkeepers-st_6A10ACFA_large.jpg",
+    "description": "Eco-friendly leather boots for environmental enthusiasts.",
+    "category": "Boots",
+    "color": "Tan",
+    "collectionType": "Summer"
+  },
+  {
+    "id": 18,
+    "name": "Dr. Martens 1460",
+    "brand": "Dr. Martens",
+    "price": 149.95,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFUhtEN65NTKPgIO6bEiuwwBuoYIOGHn-XjA&usqp=CAU",
+    "description": "Iconic leather boots with air-cushioned sole.",
+    "category": "Boots",
+    "color": "Black",
+    "collectionType": "Fall"
+  },
+  {
+    "id": 19,
+    "name": "Converse Chuck 70",
+    "brand": "Converse",
+    "price": 79.95,
+    "image": "https://dob.com.bd/wp-content/uploads/2023/09/26.png",
+    "description": "Premium canvas sneakers with vintage style.",
+    "category": "Casual",
+    "color": "White",
+    "collectionType": "Winter"
+  },
+  {
+    "id": 20,
+    "name": "Vans SK8-Hi",
+    "brand": "Vans",
+    "price": 69.99,
+    "image": "https://cdn-images.farfetch-contents.com/12/39/71/11/12397111_11294387_600.jpg",
+    "description": "High-top skate shoes for extreme comfort.",
+    "category": "Casual",
+    "color": "Navy",
+    "collectionType": "Spring"
+  }
+]

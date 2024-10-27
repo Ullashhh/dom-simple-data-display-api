@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+:root {
+    --primary-color: rgb(81, 81, 141);
+    --secondary-color: rgb(216, 39, 39);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding-inline: 2rem;
+}
+
+.header__cart {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart__number {
+    background-color: var(--secondary-color);
+    position: absolute;
+    left: -17px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.container {
+    margin-top: 2rem;
+    padding-inline: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.container__filter {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    height: 100%;
+    position: sticky;
+}
+
+select,
+input[type="text"],
+input[type="search"] {
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+input[type="reset"],
+button {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+
+main {
+    width: 100%;
+}
+
+nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav__options {
+    display: flex;
+    gap: 1rem;
+}
+
+input[type="search"] {
+    width: 300px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.products img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.products__product {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 1rem;
+}
+
+.view__cart {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.cart__list {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    transition: all 300ms ease-in-out;
+    width: 350px;
+    background-color: rgb(228, 228, 228);
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 1rem;
+}
+
+.active {
+    right: 0;
+}
+
+.cart__list__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart__list__details {
+    overflow: auto;
+    height:70vh;
+    padding-inline:1rem ;
+}
+
+.cart__list__detail {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-block: 1rem;
+    border-bottom: 1px dotted #ccc;
+}
+
+.cart__list__detail img {
+    width: 50px;
+    object-fit: cover;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.plus,
+.minus {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.minus {
+    background-color: red;
+}
+
+.cross {
+    color: red;
+    cursor: pointer;
+}
+
+.inc-dec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart__list__amount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    margin-block: 2rem;
+}
+
+.close__cart {
+    background-color: var(--secondary-color);
+}
